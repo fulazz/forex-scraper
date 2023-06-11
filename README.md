@@ -69,7 +69,7 @@ This project is licensed under the [MIT License](LICENSE).
 **Important Note**: This repository is intended for educational purposes only.
 
 ## :globe_with_meridians: Publications
-- RPubs:
+- RPubs: https://rpubs.com/fulazz/forex-scraper-project
 - App:
 
 ## :pencil: Developers
