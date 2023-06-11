@@ -6,10 +6,6 @@ library(tidyverse)
 library(rlang)
 
 #-------------------------------------------------------------------------------
-message("Checking Website Permission")
-paths_allowed("https://www.bni.co.id/en-us/home/forex-information")
-
-#-------------------------------------------------------------------------------
 message("Scraping Data")
 
 #retrieve data from websites
@@ -79,8 +75,4 @@ atlas3$insert(data_BN_fix)
 rm(atlas1)
 rm(atlas2)
 rm(atlas3)
-
-atlas1$disconnect()
-atlas2$disconnect()
-atlas3$disconnect()
 
