@@ -1,4 +1,6 @@
 # 💵🤑  **Forex Trading Information Scraper Project** 💰💲
+[![Forex Trading Scraper](https://github.com/fulazz/forex-scraper/actions/workflows/forex.yml/badge.svg)](https://github.comfulazz/forex-scraper/actions/workflows/forex.yml)
+
 
 <p align="center">
   <img width="681" height="471" src="https://images.unsplash.com/photo-1620266757065-5814239881fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Zm9yZXglMjB0cmFkaW5nfGVufDB8fDB8fHww&w=1000&q=80">
