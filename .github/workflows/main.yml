@@ -1,4 +1,4 @@
-name: scrape_hashtag
+name: scrape_forex
 
 on:
   schedule:
@@ -9,9 +9,11 @@ jobs:
   hashtag-scrape:
     runs-on: macOS-latest
     env:
+      ATLAS_COLLECTION1: ${{ secrets.ATLAS_COLLECTION1 }}
+      ATLAS_COLLECTION2: ${{ secrets.ATLAS_COLLECTION2 }}
+      ATLAS_COLLECTION3: ${{ secrets.ATLAS_COLLECTION3 }}
+      ATLAS_DB: ${{ secrets.ATLAS_DB }}      
       ATLAS_URL: ${{ secrets.ATLAS_URL }}
-      ATLAS_COLLECTION: ${{ secrets.ATLAS_COLLECTION }}
-      ATLAS_DB: ${{ secrets.ATLAS_DB }}
     steps:
     - name: Start time
       run: echo "$(date) ** $(TZ=Asia/Jakarta date)"
