@@ -1,6 +1,5 @@
 #-------------------------------------------------------------------------------
 message("Loading Packages")
-library(robotstxt) #For checking website scraping permission
 library(rvest) #For scraping the data
 library(mongolite)
 library(tidyverse)
