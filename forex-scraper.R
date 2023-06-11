@@ -40,7 +40,7 @@ data_SR_fix <- data_SR[order(data_SR$SELL, decreasing = T),]
 data_TTC_fix <- data_SR[order(data_TTC$SELL, decreasing = T),]
 data_BN_fix <- data_SR[order(data_BN$SELL, decreasing = T),]
 
-data_SR_fix$hari_scrap<-rep(as.character(Sys.Date()),nrow(data_SR_fix))
+data_SR_fix$hari_scrap<-rep(as.character(Sys.time()),nrow(data_SR_fix))
 data_TTC_fix$jam_scrap<-rep(as.character(Sys.time()),nrow(data_TTC_fix))
 data_BN_fix$jam_scrap<-rep(as.character(Sys.time()),nrow(data_BN_fix))
 #-------------------------------------------------------------------------------
