@@ -25,7 +25,6 @@ jobs:
         install.packages("tidyverse", dependencies = TRUE)
         install.packages("rlang", dependencies = TRUE)
         install.packages("mongolite")
-        install.packages(robotstxt)
       shell: Rscript {0} 
     - name: Scrape Forex Data
       run: Rscript forex-scraper.R
