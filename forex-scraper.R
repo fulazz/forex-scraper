@@ -6,10 +6,6 @@ library(tidyverse)
 library(rlang)
 
 #-------------------------------------------------------------------------------
-message("Checking Website Permission")
-paths_allowed("https://www.bni.co.id/en-us/home/forex-information")
-
-#-------------------------------------------------------------------------------
 message("Scraping Data")
 
 #retrieve data from websites
