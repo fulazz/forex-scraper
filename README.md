@@ -1,14 +1,14 @@
-# 💵🤑  **Forex Trading Information Scraper Project** 💰💲
-[![Forex Trading Scraper](https://github.com/fulazz/forex-scraper/actions/workflows/forex.yml/badge.svg)](https://github.comfulazz/forex-scraper/actions/workflows/forex.yml)
+# 💵🤑 Forex Trading Information Scraper Project 💰💲
 
+[![Forex Trading Scraper](https://github.com/fulazz/forex-scraper/actions/workflows/forex.yml/badge.svg)](https://github.comfulazz/forex-scraper/actions/workflows/forex.yml)
 
 <p align="center">
   <img width="681" height="471" src="https://images.unsplash.com/photo-1620266757065-5814239881fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Zm9yZXglMjB0cmFkaW5nfGVufDB8fDB8fHww&w=1000&q=80">
 </p>
 
-
 ## 📓 Project Description
-<p align="justify">
+
+<div align="justify">
 The Forex Trading Information Scraper project is a meticulously designed project developed as part of the STA1562 Statistical Data Management course at IPB University. This project focuses on leveraging web scraping techniques to extract valuable forex trading information from the website https://www.bni.co.id/en-us/home/forex-information.
 
 By employing sophisticated scraping methodologies, this project automates the extraction of crucial details related to currency exchange rates, historical trends, and other relevant forex data. The scraped information provides a comprehensive dataset that can be utilized for in-depth analysis, market research, and informed decision-making processes concerning forex trading.
@@ -16,7 +16,7 @@ By employing sophisticated scraping methodologies, this project automates the ex
 The Forex Trading Information Scraper project showcases the effective utilization of scraping technologies, offering a valuable resource for traders, analysts, and professionals in the forex trading industry. The extracted data can be used to gain insights into currency market trends, analyze historical patterns, and make informed trading decisions. Additionally, it provides a centralized and up-to-date source of information, eliminating the need for manual data collection from multiple sources.
 
 By leveraging this project, individuals and professionals in the forex trading industry can access accurate and timely forex information, enhancing their understanding of market dynamics and improving their trading strategies.
-</p>
+</div>
 
 ## 📑 Table of Content
 - [Features](#mag_right-features)
