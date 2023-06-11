@@ -84,3 +84,4 @@ rm(atlas3)
 atlas1$disconnect()
 atlas2$disconnect()
 atlas3$disconnect()
+
