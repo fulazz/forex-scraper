@@ -33,30 +33,48 @@ Address  &nbsp; &nbsp; &nbsp; &nbsp; : Jl. Raya Dramaga, Kampus IPB Dramaga Bogo
 
 ****
 
+<style>
+.justify {
+  text-align: justify;
+}
+</style>
+
 # Introduction
 
+<div align="justify">
 The Forex Trading Information Scraper project is a meticulously designed project developed as part of the STA1562 Statistical Data Management course at IPB University. This project focuses on leveraging web scraping techniques to extract valuable forex trading information from the [BNI Forex Information](https://www.bni.co.id/en-us/home/forex-information) website. By employing sophisticated scraping methodologies, the project automates the extraction of crucial details related to currency exchange rates, historical trends, and other relevant forex data. The scraped information provides a comprehensive dataset that can be utilized for in-depth analysis, market research, and informed decision-making processes concerning forex trading.
 
 The Forex Trading Information Scraper project showcases the effective utilization of scraping technologies, offering a valuable resource for traders, analysts, and professionals in the forex trading industry. The extracted data can be used to gain insights into currency market trends, analyze historical patterns, and make informed trading decisions. Additionally, it provides a centralized and up-to-date source of information, eliminating the need for manual data collection from multiple sources.
 
 By leveraging this project, individuals and professionals in the forex trading industry can access accurate and timely forex information, enhancing their understanding of market dynamics and improving their trading strategies.
-
+</div>
 
 # Literature Review
 ## Forex Trading
+
+<div align="justify">
 Forex trading, also known as foreign exchange trading, is the process of buying and selling currencies in the global marketplace. It involves speculating on the fluctuations in exchange rates between different currency pairs. Forex trading is a decentralized market, meaning that it operates electronically over-the-counter (OTC) rather than through a centralized exchange. Traders can participate in forex trading to profit from changes in currency values and take advantage of leverage to amplify their trading positions.
+</div>
 
 ## Web Scraping
+
+<div align="justify">
 Web scraping is a technique used to extract data from websites. It involves automated gathering of data from web pages by sending requests to the website and parsing the HTML or XML content to extract the desired information. Web scraping is commonly employed to gather data for various purposes, such as market research, data analysis, and automation. In the context of the Forex Trading Information Scraper project, web scraping techniques are utilized to extract forex trading information from the BNI website.
+</div>
 
 ## GitHub Actions and MongoDB
+
+<div align="justify">
 GitHub Actions is a feature of the popular code hosting platform GitHub that allows developers to automate workflows and tasks. It provides a way to build, test, and deploy code directly from repositories. In the Forex Trading Information Scraper project, GitHub Actions are utilized to schedule the scraping process at regular intervals, ensuring that the forex data is continuously updated.
 
 MongoDB is a popular NoSQL database that provides a flexible and scalable solution for storing and managing large volumes of data. It is a document-oriented database that stores data in JSON-like documents, making it easy to work with structured and unstructured data. In the project, MongoDB is used to store the scraped forex trading information. The scraped data is inserted into MongoDB collections, providing a persistent storage solution for further analysis and access.
 
 The collaboration between GitHub Actions and MongoDB in the project enables automated scraping of forex trading information according to the defined schedule and seamless storage of the data in a scalable database.
+</div>
 
 # Methodology
+
+<div align="justify">
 The methodology for the Forex Trading Information Scraper project involves the following steps:
 
 1. Loading Packages: The necessary R packages are loaded, including `rvest`, `mongolite`, `tidyverse`, and `rlang`. These packages provide functions and tools for web scraping, data manipulation, and database connectivity.
@@ -78,24 +96,28 @@ The methodology for the Forex Trading Information Scraper project involves the f
 Additionally, the project utilizes GitHub Actions for automation and scheduling. A workflow named "scrape_forex" is defined, which triggers based on a schedule (every 10 minutes) or manually (workflow_dispatch). The workflow runs on macOS-latest and defines environment variables for the MongoDB connection details. It includes steps for printing the start time, checking out the code repository, setting up R, and installing the required packages (`rvest` and `tidyverse`) using the `install.packages()` function.
 
 By following this methodology, the project automates the web scraping process, processes and stores the extracted data in a MongoDB database, and allows for easy access and visualization of the forex trading information.
-
+</div>
 
 # Data Visualization in MongoDB Charts
+<div align="justify">
 MongoDB Charts is a data visualization tool provided by MongoDB. It allows users to create charts, graphs, and dashboards based on the data stored in MongoDB databases. In the context of the Forex Trading Information Scraper project, MongoDB Charts can be utilized to visualize the scraped forex trading data in a meaningful and interactive manner.
 
 By connecting to the MongoDB database where the scraped data is stored, users can create charts that provide insights into currency exchange rates, historical trends, and other relevant information. MongoDB Charts supports various chart types, including line charts, bar charts, pie charts, and more. Users can customize the appearance and behavior of the charts, apply filters and aggregations, and share the visualizations with other stakeholders.
 
 Visualizing the scraped forex trading data in MongoDB Charts enhances the ability to explore and analyze the data, identify patterns and trends, and communicate the findings effectively. It provides a powerful tool for traders, analysts, and professionals in the forex trading industry to gain valuable insights and make informed decisions.
+</div>
 
 # Conclusion
+
+<div align="justify">
 The Forex Trading Information Scraper project successfully demonstrates the application of web scraping techniques to extract valuable forex trading information. By automating the extraction process, the project provides a comprehensive dataset that can be utilized for in-depth analysis, market research, and informed decision-making processes in the forex trading industry. The scraped information eliminates the need for manual data collection from multiple sources, offering a centralized and up-to-date source of accurate forex information.
 
 The project's methodology involves using the rvest package to scrape data from the BNI Forex Information website. The extracted data is then converted to numeric format and sorted based on the maximum selling price. GitHub Actions and MongoDB are employed to schedule the scraping process and store the data in a scalable database for further analysis and access. Additionally, MongoDB Charts can be used to visualize the scraped forex trading data, providing interactive and insightful visual representations.
 
 Overall, the Forex Trading Information Scraper project provides a valuable resource for traders, analysts, and professionals in the forex trading industry, enabling them to gain insights into currency market trends, analyze historical patterns, and make informed trading decisions based on accurate and up-to-date forex information.
+</div>
 
-
-# Referensi
+# Reference
 
 * [Forex (FX): Definition, How to Trade Currencies, and xamples](https://rmarkdown.rstudio.com/lesson-1.html)
 * [An introduction to web scraping with Python](https://bookdown.org/yihui/rmarkdown-cookbook/r-code.html)
