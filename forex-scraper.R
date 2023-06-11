@@ -55,19 +55,19 @@ library(mongolite)
 
 # Connect to MongoDB
 atlas1 <- mongo(
-  collection = Sys.getenv("ATLAS_COLLECTION"),
+  collection = Sys.getenv("ATLAS_COLLECTION1"),
   db         = Sys.getenv("ATLAS_DB"),
   url        = Sys.getenv("ATLAS_URL")
 )
 
 atlas2 <- mongo(
-  collection = Sys.getenv("ATLAS_COLLECTION"),
+  collection = Sys.getenv("ATLAS_COLLECTION2"),
   db         = Sys.getenv("ATLAS_DB"),
   url        = Sys.getenv("ATLAS_URL")
 )
 
 atlas3 <- mongo(
-  collection = Sys.getenv("ATLAS_COLLECTION"),
+  collection = Sys.getenv("ATLAS_COLLECTION3"),
   db         = Sys.getenv("ATLAS_DB"),
   url        = Sys.getenv("ATLAS_URL")
 )
@@ -84,3 +84,4 @@ rm(atlas3)
 atlas1$disconnect()
 atlas2$disconnect()
 atlas3$disconnect()
+
