@@ -216,6 +216,33 @@ Note: Bank Notes refer to physical currency notes, such as banknotes or paper mo
 | https://charts.mongodb.com/charts-home-property-scraper-aruxm/public/dashboards/9b4064fd-c81d-4e2c-81f1-ef01a6d5cef3|
 | https://rpubs.com/fulazz/1053300|
 
+<p align="center">
+  <img width="781" height="471" src="https://github.com/fulazz/forex-scraper/blob/main/ouput_viz/viz%20mongo%20db%20chart.png">
+</p>
+
+<p align="center">
+  <img width="681" height="471" src="https://github.com/fulazz/forex-scraper/blob/main/ouput_viz/BN1.png">
+</p>
+
+<p align="center">
+  <img width="681" height="471" src="https://github.com/fulazz/forex-scraper/blob/main/ouput_viz/BN2.png">
+</p>
+
+<p align="center">
+  <img width="681" height="471" src="https://github.com/fulazz/forex-scraper/blob/main/ouput_viz/SR1.png">
+</p>
+
+<p align="center">
+  <img width="681" height="471" src="https://github.com/fulazz/forex-scraper/blob/main/ouput_viz/SR2.png">
+</p>
+
+<p align="center">
+  <img width="681" height="471" src="https://github.com/fulazz/forex-scraper/blob/main/ouput_viz/TTC1.png">
+</p>
+
+<p align="center">
+  <img width="681" height="471" src="https://github.com/fulazz/forex-scraper/blob/main/ouput_viz/TTC2.png">
+</p>
 
 
 ## :people_holding_hands: Contributing
