@@ -244,6 +244,26 @@ Note: Bank Notes refer to physical currency notes, such as banknotes or paper mo
   <img width="681" height="471" src="https://github.com/fulazz/forex-scraper/blob/main/ouput_viz/TTC2.png">
 </p>
 
+Notes
+Interpretation for Output published in RPubs:
+Bar Chart:
+- The bar chart displays the buy prices for each currency.
+- The x-axis represents the different currencies.
+- The y-axis represents the buy prices.
+- Each bar represents the buy price of a specific currency.
+- The height of each bar indicates the magnitude of the buy price for that currency.
+- You can compare the heights of the bars to understand the relative buy prices between different currencies.
+- The title of the chart, "Buy Prices by Currency," summarizes the content of the visualization.
+
+Scatter Plot:
+
+- The scatter plot displays the relationship between the buy prices and sell prices for each currency.
+- The x-axis represents the buy prices, and the y-axis represents the sell prices.
+- Each point represents a specific currency, with its position on the plot determined by the corresponding buy and sell prices.
+- The color of each point indicates the currency.
+- You can examine the position of each point to understand the relationship between the buy and sell prices for a given currency.
+- Patterns or trends in the scatter plot can provide insights into the relationship between buy and sell prices across different currencies.
+- The title of the chart, "BUY vs SELL Prices by Currency," summarizes the content of the visualization.
 
 ## :people_holding_hands: Contributing
 This repository is exclusively intended for educational purposes as part of the STA1562 course. Contributions are not accepted at this time.
