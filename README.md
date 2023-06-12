@@ -213,7 +213,9 @@ Note: Bank Notes refer to physical currency notes, such as banknotes or paper mo
 ## :chart_with_upwards_trend: Visualization
 | URL                      |
 | ------------------------ |
-| https://fulazz.shinyapps.io/|
+| https://charts.mongodb.com/charts-home-property-scraper-aruxm/public/dashboards/9b4064fd-c81d-4e2c-81f1-ef01a6d5cef3|
+| https://rpubs.com/fulazz/1053300|
+
 
 
 ## :people_holding_hands: Contributing
@@ -226,7 +228,8 @@ This project is licensed under the [MIT License](LICENSE).
 ## :globe_with_meridians: Publications
 Further details about this project can be accessed through the following link:
 - RPubs: https://rpubs.com/fulazz/forex-scraper-project
-- App:
+- App: https://charts.mongodb.com/charts-home-property-scraper-aruxm/public/dashboards/9b4064fd-c81d-4e2c-81f1-ef01a6d5cef3
+- Visualization: https://rpubs.com/fulazz/1053300
 
 ## :pencil: Developers
   - Author    : [Tahira Fulazzaky](https://github.com/fulazz)
