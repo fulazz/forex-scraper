@@ -171,18 +171,27 @@ jobs:
 ## :camera_flash: Documentation
 Presented below is an illustrative representation of a document residing within a persistently stored MongoDB collection:
 
+**Special Rates**
+
+Note: This refers to a specific exchange rate category offered by the bank for certain types of transactions, such as large currency conversions or specific foreign exchange deals. These rates may be different from the standard rates and may be applicable under special circumstances or for specific customers.
 ```
 {
 
 }
 ```
 
+**TT Counter**
+
+Note: TT stands for Telegraphic Transfer, which is a method of electronically transferring funds from one bank account to another. TT Counter refers to the exchange rates offered by the bank for telegraphic transfers. These rates are applicable when transferring funds between different banks or accounts, typically for international money transfers.
 ```
 {
 
 }
 ```
 
+**Bank Notes**
+
+Note: Bank Notes refer to physical currency notes, such as banknotes or paper money, issued by a country's central bank. The Bank Notes exchange rates provided on the website are applicable for the buying and selling of physical currency notes, typically for cash transactions.
 ```
 {
 
