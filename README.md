@@ -176,7 +176,11 @@ Presented below is an illustrative representation of a document residing within 
 Note: This refers to a specific exchange rate category offered by the bank for certain types of transactions, such as large currency conversions or specific foreign exchange deals. These rates may be different from the standard rates and may be applicable under special circumstances or for specific customers.
 ```
 {
-
+"_id":{"$oid":"6485649d4a89fb70250f4361"},
+"CURRENCY":"GBP",
+"BUY":{"$numberDouble":"18546.0"},
+"SELL":{"$numberDouble":"18690.0"},
+"jam_scrape":"2023-06-11 06:07:21.76003"
 }
 ```
 
@@ -185,7 +189,11 @@ Note: This refers to a specific exchange rate category offered by the bank for c
 Note: TT stands for Telegraphic Transfer, which is a method of electronically transferring funds from one bank account to another. TT Counter refers to the exchange rates offered by the bank for telegraphic transfers. These rates are applicable when transferring funds between different banks or accounts, typically for international money transfers.
 ```
 {
-
+"_id":{"$oid":"6485649d4a89fb70250f436e"},
+"CURRENCY":"GBP",
+"BUY":{"$numberDouble":"18546.0"},
+"SELL":{"$numberDouble":"18690.0"},
+"jam_scrape":"2023-06-11 06:07:21.771923"
 }
 ```
 
@@ -194,7 +202,11 @@ Note: TT stands for Telegraphic Transfer, which is a method of electronically tr
 Note: Bank Notes refer to physical currency notes, such as banknotes or paper money, issued by a country's central bank. The Bank Notes exchange rates provided on the website are applicable for the buying and selling of physical currency notes, typically for cash transactions.
 ```
 {
-
+"_id":{"$oid":"6485649e4a89fb70250f437b"},
+"CURRENCY":"GBP",
+"BUY":{"$numberDouble":"18546.0"},
+"SELL":{"$numberDouble":"18690.0"},
+"jam_scrape":"2023-06-11 06:07:21.772099"
 }
 ```
 
