@@ -1,0 +1,75 @@
+---
+title: "Forex Scraping Visualization"
+author: "Tahira Fulazzaky"
+date: "2023-06-12"
+output: html_document
+---
+
+```{r}
+#ATLAS 1
+
+# Step 1: Load the required packages
+library(tidyverse)
+
+# Step 2: Read the CSV file into RStudio
+data <- read_csv("D:/4. Magister - Data Science IPB/Semester 2 - Predictive Analytics/1. MDS/Project UAS - Praktikum/forex-scraper/atlas1.csv")
+
+# Step 3: Create the bar chart
+chart_data <- data %>%
+  mutate(CURRENCY = factor(CURRENCY, levels = unique(CURRENCY)))  # Ensure correct order of currency on the x-axis
+
+ggplot(chart_data, aes(x = CURRENCY, y = BUY)) +
+  geom_bar(stat = "identity", fill = "blue", width = 0.6) +
+  labs(title = "Buy Prices by Currency", x = "Currency", y = "Buy Price") +
+  theme_minimal()
+
+ggplot(chart_data, aes(x = BUY, y = SELL, color = CURRENCY)) +
+  geom_point(size = 3) +
+  labs(title = "BUY vs SELL Prices by Currency", x = "BUY Price", y = "SELL Price") +
+  theme_minimal()
+
+
+#ATLAS 2
+# Step 1: Load the required packages
+library(tidyverse)
+
+# Step 2: Read the CSV file into RStudio
+data <- read_csv("D:/4. Magister - Data Science IPB/Semester 2 - Predictive Analytics/1. MDS/Project UAS - Praktikum/forex-scraper/atlas2.csv")
+
+# Step 3: Create the bar chart
+chart_data <- data %>%
+  mutate(CURRENCY = factor(CURRENCY, levels = unique(CURRENCY)))  # Ensure correct order of currency on the x-axis
+
+ggplot(chart_data, aes(x = CURRENCY, y = BUY)) +
+  geom_bar(stat = "identity", fill = "blue", width = 0.6) +
+  labs(title = "Buy Prices by Currency", x = "Currency", y = "Buy Price") +
+  theme_minimal()
+
+ggplot(chart_data, aes(x = BUY, y = SELL, color = CURRENCY)) +
+  geom_point(size = 3) +
+  labs(title = "BUY vs SELL Prices by Currency", x = "BUY Price", y = "SELL Price") +
+  theme_minimal()
+
+#ATLAS 3
+# Step 1: Load the required packages
+library(tidyverse)
+
+# Step 2: Read the CSV file into RStudio
+data <- read_csv("D:/4. Magister - Data Science IPB/Semester 2 - Predictive Analytics/1. MDS/Project UAS - Praktikum/forex-scraper/atlas3.csv")
+
+# Step 3: Create the bar chart
+chart_data <- data %>%
+  mutate(CURRENCY = factor(CURRENCY, levels = unique(CURRENCY)))  # Ensure correct order of currency on the x-axis
+
+ggplot(chart_data, aes(x = CURRENCY, y = BUY)) +
+  geom_bar(stat = "identity", fill = "blue", width = 0.6) +
+  labs(title = "Buy Prices by Currency", x = "Currency", y = "Buy Price") +
+  theme_minimal()
+
+ggplot(chart_data, aes(x = BUY, y = SELL, color = CURRENCY)) +
+  geom_point(size = 3) +
+  labs(title = "BUY vs SELL Prices by Currency", x = "BUY Price", y = "SELL Price") +
+  theme_minimal()
+
+```
+
