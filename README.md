@@ -130,8 +130,64 @@ rm(atlas2)
 rm(atlas3)
 }
 ```
-## :camera_flash: Documentation
 
+Then, proceed with the following YAML configuration:
+
+```
+{
+name: scrape_forex
+
+on:
+  schedule:
+    - cron: '*/10 * * * *' #every 10 minutes
+  workflow_dispatch:
+    
+jobs:
+  hashtag-scrape:
+    runs-on: macOS-latest
+    env:
+      ATLAS_COLLECTION1: ${{ secrets.ATLAS_COLLECTION1 }}
+      ATLAS_COLLECTION2: ${{ secrets.ATLAS_COLLECTION2 }}
+      ATLAS_COLLECTION3: ${{ secrets.ATLAS_COLLECTION3 }}
+      ATLAS_DB: ${{ secrets.ATLAS_DB }}      
+      ATLAS_URL: ${{ secrets.ATLAS_URL }}
+    steps:
+    - name: Start time
+      run: echo "$(date) ** $(TZ=Asia/Jakarta date)"
+    - uses: actions/checkout@v3
+    - uses: r-lib/actions/setup-r@v2   
+    - name: Install packages
+      run: |
+        install.packages("rvest", dependencies = TRUE)
+        install.packages("tidyverse", dependencies = TRUE)
+        install.packages("rlang", dependencies = TRUE)
+        install.packages("mongolite")
+      shell: Rscript {0} 
+    - name: Scrape Forex Data
+      run: Rscript forex-scraper.R
+}
+```
+
+## :camera_flash: Documentation
+Presented below is an illustrative representation of a document residing within a persistently stored MongoDB collection:
+
+```
+{
+
+}
+```
+
+```
+{
+
+}
+```
+
+```
+{
+
+}
+```
 
 ## :chart_with_upwards_trend: Visualization
 | URL                      |
