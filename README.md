@@ -246,6 +246,7 @@ Note: Bank Notes refer to physical currency notes, such as banknotes or paper mo
 
 Notes
 Interpretation for Output published in RPubs:
+
 Bar Chart:
 - The bar chart displays the buy prices for each currency.
 - The x-axis represents the different currencies.
